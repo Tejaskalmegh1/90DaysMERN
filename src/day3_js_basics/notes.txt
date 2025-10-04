@@ -1,0 +1,114 @@
+--- JavaScript Basics ---
+
+
+# What is JavaScript
+
+JavaScript is a high-level, interpreted, prototype-based, single-threaded, event-driven, 
+dynamically typed scripting language that enables DOM manipulation, asynchronous 
+programming via event loop, and supports object-oriented and functional paradigms. 
+It runs in browsers and on servers through Node.js
+
+
+# APPLICATIONS OF JavaScript
+
+Web Development – DOM manipulation, form validation, event handling.
+Backend Development – Server-side scripting with Node.js.
+Mobile Apps – Cross-platform apps using React Native, Ionic.
+Desktop Apps – Using Electron.js.
+Game Development – 2D/3D browser games with Canvas, WebGL, Three.js.
+Data Visualization – Charts and dashboards using D3.js, Chart.js.
+AI/ML in Web – TensorFlow.js, Brain.js.
+
+
+# VARIABLES 
+
+- Whats is variable in JavaScript :
+A variable in JavaScript is a named storage that holds data which can be 
+referenced and manipulated during program execution. It’s declared using 
+var, let, or const, and can store different data types (number, string, object, etc.)
+since JS is dynamically typed.
+
+- Rules of Naming Variables in JavaScript :
+Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.
+After the first letter, we can use digits (0 to 9), for example, value1.
+JavaScript variables are case-sensitive; for example, x and X are different variables.
+
+- LET Statement :
+The let keyword was introduced in the ES6 (2015) version of JavaScript. 
+It is an alternative to the var keyword. The main reason behind introducing 
+the let keyword is to improve the scoping behaviors of variables and the safety of the code.
+With the let statement, we can declare a variable that is block-scoped. 
+This mean a variable declared with let is only accessible within the block 
+of code in which it is defined.
+
+- CONSTANTS Statement :
+The const keyword is introduced in the ES6 version of JavaScript with the let keyword. 
+The const keyword is used to define the variables having constant reference.
+A variable defined with const can't be re-declared, reassigned. 
+The const declaration have block as well as function scope.
+A JavaScript variable declared with const keyword has block-scope. 
+This means same variable is treated as different outside the block.
+
+
+# DATATYPE
+
+JavaScript data types can be categorized as primitive and non-primitive (object).
+JavaScript (ES6 and higher) allows you to work with seven primitive data types 
+
+- PRIMITIVE DATATYPE
+Strings    e.g. "This text string" etc.
+Numbers    e.g. 123, 120.50 etc.
+Boolean    e.g. true or false / yes or no
+null       
+undefined   
+BigInt
+Symbol
+
+- NUMBERS : 
+Represents numeric values (integers and decimals).
+
+- STRING : 
+Represents text enclosed in single or double quotes.
+
+- BOOLEAN : 
+Represents a logical value (true or false).
+
+- UNDEFINED : 
+A variable that has been declared but not assigned a value.
+
+- NULL : 
+Represents an intentional absence of any value.
+
+- SYMBOL : 
+Represents unique and immutable values, often used as object keys.
+
+- BIGINT : 
+Represents integers larger than Number.MAX_SAFE_INTEGER.
+
+- NON-PRIMITIVE DATATYPE
+
+- OBJECTS : 
+Represents key-value pairs.
+
+- ARRAY : 
+Represents an ordered list of values.
+
+- FUNCTION : 
+Represents reusable blocks of code.
+
+
+
+# OPERATORS
+
+- ARITHMETIC OPERATORS :
+ (+ , - , * , / , % , ++ , --)
+
+- COMPARISON OPERATORS :
+ (== , != , === (Strict equality) , !== (Strict inequality) , > , < , >= , <=)
+
+- LOGICAL OPERATORS : 
+ (&& , || , !)
+
+
+# TYPE CONVERSION
+
