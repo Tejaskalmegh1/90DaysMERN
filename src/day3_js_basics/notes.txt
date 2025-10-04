@@ -75,9 +75,11 @@ Represents a logical value (true or false).
 
 - UNDEFINED : 
 A variable that has been declared but not assigned a value.
+TYPEOF UNDEFINED IS UNDEFINED
 
 - NULL : 
 Represents an intentional absence of any value.
+TYPEOF NULL DATA TYPE IS OBJECT 
 
 - SYMBOL : 
 Represents unique and immutable values, often used as object keys.
