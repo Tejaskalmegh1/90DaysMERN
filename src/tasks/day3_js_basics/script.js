@@ -9,5 +9,3 @@ console.log("I am ",my_age,"year's old");
 console.log("Student :",student);
 console.log("Addition of Two numbers : ",num1+num2);
 
-
-
