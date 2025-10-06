@@ -1,7 +1,4 @@
-let num1, num2, num3 
-num1 = 15
-num2 = 10
-num3 = 5
+let num1 = 15, num2 = 10, num3 = 5;
 
 // IF Statement
 
@@ -46,7 +43,7 @@ const rl = readline.createInterface({
 // OPTIONS TO DISPLY ON CONSOLE
 
 console.log("Press 1 to perform ADDITION");
-console.log("Press 2 to perform SUBSTRACTION");
+console.log("Press 2 to perform SUBTRACTION");
 console.log("press 3 to perform MULTIPLICATION");
 
 
@@ -70,7 +67,7 @@ rl.question("Enter First Number: ",function(n1){
             break;
             
             case 2 :
-            console.log("SUBSTRATION: ",n1-n2);
+            console.log("SUBTRATION: ",n1-n2);
             break;
                 
             case 3 :
@@ -81,14 +78,42 @@ rl.question("Enter First Number: ",function(n1){
             console.log("Please Enter Valid Choice!");
             break;
 
-        }    
-});
+         }    
+        });
     
-});
+    });
 
 });
 
 
 // FOR STATEMENT 
 
+console.log("for loop example");
 
+for(let i = 1; i <= 5; i++){
+    console.log(" ",i);
+}
+
+
+// WHILE LOOP
+
+let j = 5;
+
+console.log("while loop example");
+
+while(j <= 10){
+    console.log("",j);
+    j++;    
+}
+
+
+// DO - WHILE LOOP
+
+let k = 10;
+
+console.log("do - while loop example");
+
+do{
+    console.log("",k);
+    k++;
+} while (k <= 15);
