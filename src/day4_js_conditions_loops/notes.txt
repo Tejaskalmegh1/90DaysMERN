@@ -1,7 +1,49 @@
---- Control statement ---
 
-1. if
+                                            --- Conditional statement ---
 
-2. if else
+# if
+   Use if to specify a code block to be executed, if a specified condition is true
 
-3. else if
+# if else
+   Use if to specify a code block to be executed, if a specified condition is true
+   Use else to specify a code block to be executed, if the same condition is false
+
+# else if
+   Use else if to specify a new condition to test, if the first condition is false
+
+# switch
+   Use switch to specify many alternative code blocks to be executed
+
+
+
+                                                 --- Loop statement ---
+
+
+# for
+  The for statement creates a loop with 3 optional expressions:
+
+  for (expr1; expr2; expr) {
+  // code block to be executed
+  }
+
+  exp1 is executed one time before the execution of the code block.
+  exp2 defines the condition for executing the code block.
+  exp3 is executed every time the code block has been executed.
+
+# while
+  he while loop loops through a block of code as long as a specified condition is true.
+
+  while (condition) {
+  // code block to be executed
+  }
+
+
+# do while
+  The do while loop will execute the code block once, before checking if the condition is true,
+  then it will repeat the loop as long as the condition is true.
+
+  do {
+  // code block to be executed
+  }
+  while (condition);
+
