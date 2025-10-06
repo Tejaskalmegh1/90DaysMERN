@@ -1,10 +1,40 @@
-let num, num1 = 10
+let num1, num2, num3 
+num1 = 15
+num2 = 10
+num3 = 5
 
-if(num1 % 2 == 0){
-    console.log("Number is Even");
-}else{
-    console.log("Number is odd!");
+// IF Statement
+
+if(num1>num2){
+    console.log("First Number is Greater!");
 }
+
+// IF-ELSE Statement
+
+if(num2<num3) {
+    console.log("Third Number is Greater!");
+
+} else {
+    console.log("Second Number is Greater!");
+    
+}
+
+// ELSE-IF Statement
+
+if (num3 < 0) {
+    console.log("Number is Negative");
+    
+} else if(num3 > 0) {
+    console.log("Number is Positive");
+    
+} else {
+    console.log("Number is Zero ");
+    
+}
+
+
+
+// Writing method to take input from user (Console)
 
 const readline = require("readline");
 
@@ -13,48 +43,52 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question("Enter Any Number: ", function(num) {
-  rl.close();
+// OPTIONS TO DISPLY ON CONSOLE
+
+console.log("Press 1 to perform ADDITION");
+console.log("Press 2 to perform SUBSTRACTION");
+console.log("press 3 to perform MULTIPLICATION");
+
+
+rl.question("Enter First Number: ",function(n1){
+    rl.question("Enter Second Number: ",function(n2){
+        rl.question("Enter your choice: ",function(ch){
+        rl.close();
+
+        // STRING TO NUMBER
+        
+        n1 = parseFloat(n1);
+        n2 = parseFloat(n2);
+        ch = parseFloat(ch);
+
+        // SWITCH STATEMENT
+
+        switch(ch){
+            
+            case 1 :
+            console.log("ADDITION: ",n1+n2);
+            break;
+            
+            case 2 :
+            console.log("SUBSTRATION: ",n1-n2);
+            break;
+                
+            case 3 :
+            console.log("MULTIPLICATION: ",n1*n2);
+            break;
+                    
+            default :
+            console.log("Please Enter Valid Choice!");
+            break;
+
+        }    
+});
+    
 });
 
-if(num > 0) {
-    console.log("Number is Possitive")
-} else if(num < 0) {
-    console.log("Number is Negative")
-} else {
-    console.log("Number is Zero!")
-}
-
-rl.question("Enter your Number: ", function(number) {
-  rl.close();
 });
 
-let dayName
 
-switch(number){
-    case 1 :
-        dayName = "Monday";
-        break;
-    case 2:
-        dayName = "Tuesday";
-        break;
-    case 3:
-        dayName = "Wednesday";
-        break;
-    case 4:
-        dayName = "Thursday";
-        break;
-    case 5:
-        dayName = "Friday";
-        break;
-    case 6:
-        dayName = "Saturday";
-        break;
-    case 7:
-        dayName = "Sunday";
-        break;
-    default:
-        dayName = "Invalid day number!";       
-}
+// FOR STATEMENT 
 
-console.log("Your Day is ",dayName);
+
